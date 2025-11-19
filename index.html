@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Thiệp cưới Khánh Lộc & Thùy Linh</title>
+  <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500;700&family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <!-- Floating hearts background -->
+  <div class="heart-container" aria-hidden="true">
+    <!-- hearts generated via CSS -->
+    <span class="heart"></span>
+    <span class="heart"></span>
+    <span class="heart"></span>
+    <span class="heart"></span>
+    <span class="heart"></span>
+    <span class="heart"></span>
+    <span class="heart"></span>
+    <span class="heart"></span>
+    <span class="heart"></span>
+    <span class="heart"></span>
+  </div>
+
+  <!-- Audio control (music icon) -->
+  <button class="audio-control" aria-label="Bật/Tắt nhạc" title="Bật/Tắt nhạc">
+    ♪
+  </button>
+
+  <main class="card-wrapper">
+    <!-- Hero section with couple photo and names -->
+    <section class="hero reveal">
+      <div class="hero-image">
+        <!-- Placeholder for the large couple photo -->
+        <div class="photo-placeholder" title="Ảnh cô dâu chú rể" style="background-image: url('assets/8.jpg'); background-size: cover; background-position: center;"></div>
+        <!-- Invitation overlay displayed on top of the hero image -->
+        <div class="invite-overlay rotate-in">
+          <div class="invite-block">
+            <h3>THƯ MỜI TIỆC CƯỚI</h3>
+            <p>THỨ BẢY - 16:30</p>
+            <p>13.12.2025</p>
+          </div>
+          <div class="divider"></div>
+          <div class="invite-block">
+            <h3>LỄ THÀNH HÔN</h3>
+            <p>Chủ Nhật - 9:00</p>
+            <p>14.12.2025</p>
+          </div>
+        </div>
+      </div>
+      <div class="hero-names">
+        <h1>Lộc <span>&amp;</span> Linh</h1>
+      </div>
+    </section>
+
+    <section class="invitation reveal">
+      <div class="families-container">
+        <div class="vertical-text">Nhà<br>Có<br>Hỷ</div>
+        <div class="families-info">
+          <div class="family groom">
+            <h4>Nhà Trai</h4>
+            <p>Ông : Nguyễn Văn Tiến</p>
+            <p>Bà : Nguyễn Thị Kim Khánh</p>
+            <p class="address">Tân Chi - Bắc Ninh <span class="heart-icon">❤</span></p>
+          </div>
+          <div class="family bride">
+            <h4>Nhà Gái</h4>
+            <p>Ông : Đặng Đình Duệ</p>
+            <p>Bà : Nguyễn Thị Huyền</p>
+            <p class="address">Tân Chi - Bắc Ninh <span class="heart-icon">❤</span></p>
+          </div>
+        </div>
+      </div>
+      <p class="announce-title">TRÂN TRỌNG KÍNH MỜI THAM DỰ LỄ THÀNH HÔN</p>
+      <p class="family-names">Nguyễn Khánh Lộc<br><span>&amp;</span><br>Đặng Thị Thùy Linh</p>
+    </section>
+
+    <!-- Couple gallery (two smaller photos) -->
+    <section class="couple-gallery reveal">
+      <div class="gallery-row">
+        <div class="gallery-photo"><div class="photo-placeholder small" style="background-image: url('assets/1.jfif'); background-size: cover; background-position: center;"></div></div>
+        <div class="gallery-photo"><div class="photo-placeholder small" style="background-image: url('assets/3.jfif'); background-size: cover; background-position: center;"></div></div>
+      </div>
+    </section>
+
+    <!-- Events cards for bride & groom families -->
+    <section class="events reveal">
+      <!-- Groom's wedding party card -->
+      <div class="event-card groom">
+        <h3>TIỆC CƯỚI NHÀ TRAI</h3>
+        <p class="day-time">THỨ BẢY • 16:30</p>
+        <p class="big-date"><span>13</span> . <span>12</span> . <span>2025</span></p>
+        <p class="lunar-date">Tức Ngày 25 tháng 10 năm Ất Tỵ</p>
+        <p class="location">TẠI TƯ GIA NHÀ TRAI</p>
+        <p class="address">Tân Chi • Bắc Ninh</p>
+        <a href="#" class="btn event-btn">Xem chỉ đường</a>
+      </div>
+      <!-- Bride's wedding party card -->
+      <div class="event-card bride">
+        <h3>TIỆC CƯỚI NHÀ GÁI</h3>
+        <p class="day-time">THỨ BẢY • 18:00</p>
+        <p class="big-date"><span>13</span> . <span>12</span> . <span>2025</span></p>
+        <p class="lunar-date">Tức Ngày 25 tháng 10 năm Ất Tỵ</p>
+        <p class="location">TẠI TƯ GIA NHÀ Gái</p>
+        <p class="address">Tân Chi • Bắc Ninh</p>
+        <span class="card-heart">❤</span>
+        <a href="#" class="btn event-btn">Xem chỉ đường</a>
+      </div>
+    </section>
+
+    <section class="ceremony reveal">
+      <!-- Lễ Vu Quy card -->
+      <div class="ceremony-card vu-quy">
+        <h3>Lễ Vu Quy</h3>
+        <p class="ceremony-subheading">Vào Chủ Nhật - 09h00</p>
+        <div class="ceremony-date-line">
+          <span class="month">Tháng&nbsp;12</span>
+          <span class="divider"></span>
+          <span class="day">14</span>
+          <span class="divider"></span>
+          <span class="year">2025</span>
+        </div>
+        <p class="lunar-date">Tức Ngày 25 tháng 10 năm Ất Tỵ</p>
+        <p class="ceremony-location">Tại tư gia nhà gái</p>
+      </div>
+      <!-- Ceremony road map -->
+      <div class="ceremony-map">
+        <img src="assets/ceremony_map.jpg" alt="Bản đồ tới nhà trai và nhà gái">
+        <!-- Buttons for houses -->
+        <a href="https://maps.app.goo.gl/N6zFN5HL3CnNa8Hy7" target="_blank" class="map-btn map-btn-trai">Chỉ đường</a>
+        <a href="https://www.google.com/maps/search/?api=1&query=Ph%C3%BA+C%C3%A1t+Qu%E1%BB%91c+Oai+H%C3%A0+N%E1%BB%99i" target="_blank" class="map-btn map-btn-gai">Chỉ đường</a>
+      </div>
+      <!-- Lễ Thành Hôn card -->
+      <div class="ceremony-card thanh-hon">
+        
+        <h3>Lễ Thành Hôn</h3>
+        <p class="ceremony-subheading">Vào Chủ Nhật - 13h00</p>
+        <div class="ceremony-date-line">
+          <span class="month">Tháng&nbsp;12</span>
+          <span class="divider"></span>
+          <span class="day">14</span>
+          <span class="divider"></span>
+          <span class="year">2025</span>
+        </div>
+        <p class="lunar-date">Tức Ngày 25 tháng 10 năm Ất Tỵ</p>
+        <p class="ceremony-location">Tại tư gia nhà trai</p>
+      </div>
+    </section>
+
+    <!-- Calendar section -->
+    <section class="calendar-section reveal">
+      <div class="calendar-header new-style">
+        <span class="calendar-month">Tháng 12</span>
+      </div>
+      <table class="calendar-table new-style">
+        <thead>
+          <tr>
+            <th>CN</th><th>T2</th><th>T3</th><th>T4</th><th>T5</th><th>T6</th><th>T7</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr><td></td><td>1</td><td>2</td><td>3</td><td>4</td><td>5</td><td>6</td></tr>
+          <tr><td>7</td><td>8</td><td>9</td><td>10</td><td>11</td><td>12</td><td class="day-20"><span>13</span></td></tr>
+          <tr><td class="day-21"><span>14</span></td><td>15</td><td>16</td><td>17</td><td>18</td><td>19</td><td>20</td></tr>
+          <tr>
+            <td >21</td><td>22</td><td>23</td><td>24</td><td>25</td><td>26</td><td>27</td>
+          </tr>
+          <tr><td>28</td><td>29</td><td>30</td><td>31</td><td></td><td></td><td></td></tr>
+        </tbody>
+      </table>
+    </section>
+
+    <!-- Invitation overlay section -->
+    <section class="invitation-overlay reveal">
+      <div class="invitation-photo">
+        <!-- Large couple photo placeholder -->
+        <div class="photo-placeholder invitation-image" style="background-image: url('assets/4.jpg'); background-size: cover; background-position: center;"></div>
+        <!-- Translucent overlay containing invitation details and countdown -->
+        <div class="invitation-content">
+          <h3 class="invitation-title">INVITATION</h3>
+          <h4 class="invitation-names">Khánh Lộc <span>&amp;</span> Thùy Linh</h4>
+          <p class="invitation-story">
+            Chúng mình sắp bắt đầu một hành trình mới cùng nhau.<br>
+            <span class="inline-heart">❤</span> Niềm vui này sẽ trọn vẹn hơn khi có bạn bên cạnh.<br>
+            Cuộc sống quý giá không chỉ ở đích đến, mà còn ở những khoảnh khắc chia sẻ cùng nhau.<br>
+            Vì vậy, chúng mình mong được bạn chung vui trong ngày hạnh phúc này.
+          </p>
+          <div class="countdown-container invitation-countdown">
+            <div class="countdown-box">
+              <span id="days">00</span>
+              <small>ngày</small>
+            </div>
+            <div class="countdown-box">
+              <span id="hours">00</span>
+              <small>giờ</small>
+            </div>
+            <div class="countdown-box">
+              <span id="minutes">00</span>
+              <small>phút</small>
+            </div>
+            <div class="countdown-box">
+              <span id="seconds">00</span>
+              <small>giây</small>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Love & You section -->
+    <section class="love-you reveal">
+      <div class="love-photo-wrapper">
+        <div class="love-photo">
+          <div class="photo-placeholder love-image" style="background-image: url('assets/5.jpg'); background-size: cover; background-position: center;"></div>
+          <div class="love-caption"><span class="caption-heart">❤</span> Love</div>
+        </div>
+        <div class="love-photo">
+          <div class="photo-placeholder love-image" style="background-image: url('assets/6.jpg'); background-size: cover; background-position: center;"></div>
+          <div class="love-caption"><span class="caption-heart">❤</span> You</div>
+        </div>
+      </div>
+      <p class="love-quote">Loại bỏ tất cả những lời yêu thương hoa mỹ, có lẽ tình yêu thực sự là sự đồng hành lâu dài.</p>
+    </section>
+
+    <!-- RSVP form -->
+    <section class="rsvp reveal">
+      <!-- Photo background for RSVP -->
+      <div class="rsvp-photo">
+        <div class="photo-placeholder rsvp-image" style="background-image: url('assets/7.jpg'); background-size: cover; background-position: center;"></div>
+      </div>
+      <!-- Form overlay -->
+      <div class="rsvp-form-overlay">
+        <h3>Xác nhận tham dự</h3>
+        <form id="rsvp-form">
+          <label>Họ và tên
+            <input type="text" name="name" placeholder="Nhập tên của bạn" required>
+          </label>
+          <label>Bạn sẽ tham dự chứ?</label>
+          <div class="attendance-options">
+            <label class="radio-option"><input type="radio" name="attendance" value="yes" checked> Có, tôi sẽ tham dự</label>
+            <label class="radio-option"><input type="radio" name="attendance" value="no"> Tôi bận, rất tiếc không thể tham dự</label>
+          </div>
+          <label>Số lượng người tham dự
+            <select name="guests">
+              <option value="1">1 người</option>
+              <option value="2">2 người</option>
+              <option value="3">3 người</option>
+              <option value="4">4 người</option>
+              <option value="5">5 người</option>
+              <option value="6">6 người</option>
+              <option value="7">7 người</option>
+              <option value="8">8 người</option>
+              <option value="9">9 người</option>
+              <option value="10">10 người</option>
+            </select>
+          </label>
+          <label>Lời nhắn
+            <textarea name="message" rows="3" placeholder="Gửi lời chúc tới chúng tôi..."></textarea>
+          </label>
+          <button type="submit" class="btn">Gửi xác nhận</button>
+        </form>
+      </div>
+    </section>
+
+    <!-- Photo slider gallery -->
+    <!--
+      The original photo slider used a simple horizontal strip of images with
+      minimal navigation. To better match the reference design, this section
+      has been rebuilt as a dark red card containing a large main slide,
+      left/right navigation buttons, a heart overlay on the photo and a
+      full‑screen button. A row of thumbnail images below allows the user
+      to preview and jump between photos. See styles.css for the styling.
+    -->
+    <section class="photo-slider redesigned reveal">
+      <div class="slider-container">
+        <button class="slider-nav prev" aria-label="Ảnh trước">❮</button>
+        <div class="slider-main">
+          <div class="photo-placeholder slider-main-img" style="background-image: url('assets/8.jpg'); background-size: cover; background-position: center;"></div>
+          <span class="heart-overlay">❤</span>
+          <button class="fullscreen-btn" aria-label="Xem toàn màn hình">⛶</button>
+        </div>
+        <button class="slider-nav next" aria-label="Ảnh sau">❯</button>
+      </div>
+      <div class="thumbnail-row">
+        <div class="thumb selected"><div class="photo-placeholder slider-thumb" style="background-image: url('assets/5.jpg'); background-size: cover; background-position: center;"></div></div>
+        <div class="thumb"><div class="photo-placeholder slider-thumb" style="background-image: url('assets/6.jpg'); background-size: cover; background-position: center;"></div></div>
+        <div class="thumb"><div class="photo-placeholder slider-thumb" style="background-image: url('assets/7.jpg'); background-size: cover; background-position: center;"></div></div>
+        <div class="thumb"><div class="photo-placeholder slider-thumb" style="background-image: url('assets/8.jpg'); background-size: cover; background-position: center;"></div></div>
+      </div>
+    </section>
+
+    <!-- Wishes and gifts section -->
+    <!-- Gift section -->
+    <section class="gift-section reveal">
+      <h3 class="gift-title">Gửi quà mừng Tới Cô Dâu – Chú Rể</h3>
+      <span class="gift-heart">❤</span>
+      <div class="gift-icon">
+        <!-- Simple gift box illustration using inline SVG -->
+        <svg viewBox="0 0 64 64" aria-hidden="true">
+          <rect x="8" y="22" width="48" height="32" rx="4" fill="#FFC9D9" stroke="#8c0303" stroke-width="2"/>
+          <rect x="28" y="22" width="8" height="32" fill="#F9D474" stroke="#8c0303" stroke-width="2"/>
+          <rect x="8" y="38" width="48" height="8" fill="#F9D474" stroke="#8c0303" stroke-width="2"/>
+          <path d="M20 20 C16 10, 28 10, 24 20 S32 28, 32 28 S40 20, 44 12 S56 20, 48 28" fill="#FFC9D9" stroke="#8c0303" stroke-width="2"/>
+        </svg>
+      </div>
+      <!-- The gift icon itself is now clickable to open the gift modal -->
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer reveal">
+      <p>Made By Trung Hiếu – From BG98 Mừng Anh Chị Trăm Năm Hạnh Phúc</p>
+    </footer>
+  </main>
+
+  <script src="js/main.js"></script>
+
+  <!-- Gift modal overlay -->
+  <div class="gift-modal" id="gift-modal">
+    <div class="gift-modal-content">
+      <h3>Hộp Quà Yêu Thương</h3>
+      <p>Quét QR code để gửi yêu thương trực tiếp tới:</p>
+      <div class="gift-cards">
+        <div class="gift-card bride">
+          <h4>Cô dâu</h4>
+          <img src="assets/qr_bride.png" alt="QR code Cô dâu">
+          <p class="name">Đặng Thị Thùy Linh</p>
+          <p class="bank">Teckconbank</p>
+          <p class="account">123456789</p>
+          <button type="button" class="copy-btn copy-bride" data-account="123456789">Sao chép số TK</button>
+        </div>
+        <div class="gift-card groom">
+          <h4>Chú rể</h4>
+          <img src="assets/qr_groom.png" alt="QR code Chú rể">
+          <p class="name">Nguyễn Khánh Lộc</p>
+          <p class="bank">MB Bank</p>
+          <p class="account">123456789</p>
+          <button type="button" class="copy-btn copy-groom" data-account="123456789">Sao chép số TK</button>
+        </div>
+      </div>
+      <button type="button" class="close-modal">Đóng</button>
+    </div>
+  </div>
+
+  <!-- Background music placeholder. Replace assets/music.mp3 with your own audio file if desired. -->
+  <!-- Background music now uses the uploaded MP3 and autoplays on load -->
+  <audio id="background-audio" src="assets/music.mp3" autoplay loop></audio>
+</body>
+</html>
