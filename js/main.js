@@ -104,7 +104,7 @@ document.addEventListener('DOMContentLoaded', () => {
   }
 
   // Countdown timer
-  const targetDate = new Date('2025-12-14T09:00:00');
+  const targetDate = new Date('2025-12-13T09:00:00');
   const daysEl = document.getElementById('days');
   const hoursEl = document.getElementById('hours');
   const minutesEl = document.getElementById('minutes');
